@@ -1,5 +1,6 @@
 # 一个简单的openai chat接口测试小工具
-基于 [dioxus](https://github.com/DioxusLabs/dioxus) 和 [bulma](https://bulma.io) (css)
+基于 [dioxus](https://github.com/DioxusLabs/dioxus) 和 [bulma](https://bulma.io) (css)  
+灵感来自: [https://github.com/DioxusLabs/example-projects/tree/master/image_generator_open_ai](https://github.com/DioxusLabs/example-projects/tree/master/image_generator_open_ai) 
 
 # Intro
 用来做一些简单的问答（没有实现对话），可以保存prompt进行一些验证，探索。
@@ -7,7 +8,7 @@
 ![](readme/image.PNG)
 
 ## 设置
-![](readme/setting.png)
+![](readme/setting.png)  
 第一项是proxy的地址 如果可以直连就使用`https://api.openai.com`  
 第二项是openai的secret
 设置会在生成`gui_config.json`文件, secret明文存储请注意安全  
