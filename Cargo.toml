@@ -2,10 +2,12 @@
 name = "dioxus-openai-qa-gui"
 version = "0.1.0"
 edition = "2021"
+description = "openai qa gui tool using gpt3.5"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chrono = "0.4.23"
 dioxus = "0.3.2"
 dioxus-desktop = "0.3.0"
 markdown = "0.3.0"
@@ -13,3 +15,13 @@ reqwest = "0.11.14"
 serde = "1.0.154"
 serde_json = "1.0.94"
 tokio = "1.26.0"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
+
+[package.metadata.bundle]
+name = "dioxus-openai-qa-gui"
+identifier = "io.github.fairjm.dioxus-openai-qa-gui"
+version = "0.1.0"
+copyright = "Copyright (c) fairjm 2023. All rights reserved."
+short_description = "openai qa gui tool using gpt3.5"
