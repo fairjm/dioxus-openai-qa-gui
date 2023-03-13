@@ -1,5 +1,5 @@
 # 一个简单的openai chat接口测试小工具
-基于 [dioxus](https://github.com/DioxusLabs/dioxus) 和 [bulma](https://bulma.io/documentation/components/modal/) (css)
+基于 [dioxus](https://github.com/DioxusLabs/dioxus) 和 [bulma](https://bulma.io) (css)
 
 # Intro
 用来做一些简单的问答（没有实现对话），可以保存prompt进行一些验证，探索。
@@ -34,3 +34,5 @@ cargo build
 # release build
 cargo build --release
 ```
+
+或者直接下载release  
