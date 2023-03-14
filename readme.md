@@ -37,3 +37,8 @@ cargo build --release
 ```
 
 或者直接下载release  
+
+# Other
+rsx的format可以使用[dioxus-cli](https://github.com/DioxusLabs/cli)   
+stable版本没有fmt的子命令, 使用`cargo install --git https://github.com/DioxusLabs/cli`安装后执行`dioxus fmt`  
+
